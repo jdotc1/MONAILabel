@@ -1,3 +1,13 @@
+## Connect image annotation with model-assisted workflows
+
+This is a development fork of [MONAI Label](https://github.com/Project-MONAI/MONAILabel), a server-and-client framework for interactive medical-image labeling. Upstream connects labeling applications and model inference with viewers such as 3D Slicer, OHIF, and QuPath, making it useful for assembling annotation workflows around radiology or pathology datasets.
+
+**Contribution to review:** [PR #1923](https://github.com/Project-MONAI/MONAILabel/pull/1923) proposes checking HTTP status before caching OpenID discovery responses.
+
+Follow the [official documentation](https://monai.readthedocs.io/projects/label/en/latest/) to install the server, choose a sample application, and connect a viewer. The original supported-matrix and setup guidance are preserved below. The [branch comparison](https://github.com/Project-MONAI/MONAILabel/compare/main...jdotc1:main) shows this fork's default branch alongside upstream.
+
+---
+
 <!--
 Copyright (c) MONAI Consortium
 Licensed under the Apache License, Version 2.0 (the "License");
